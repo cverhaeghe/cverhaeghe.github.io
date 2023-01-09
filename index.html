@@ -1,27 +1,147 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> La Sagesse et les maths </title>
+        <title>  La Sagesse et les maths </title>
         <style>
-          #bouton-menu {
-            color : violet;
+          body{
+            background-color: rgb(230,230,230);
+          }
+          #menu{
+            background-color: #35bdbc;
+            padding: 15px;
+            width: 250px;
+            height: 600px;
+            margin-left: 100px;
+          }
+          #isphere {
+            padding:25px;
+            margin-left: 90px;
+            margin-top: -600px;
+          }
+          #menu-item {
+            color : white;
+            border-bottom: 1px solid #2a8382;
+            text-decoration: none;
+            display: block;
+            line-height: 2;
+            font-size: 15px;
+            font-family: "Lato", Arial, Helvetica, sans-serif;
+            width : 80%;
+            margin-top: 10px;
           }
           a {
             text-decoration: none;
           }
+
+          #titre {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 36px;
+            font-family: "Lato", Arial, Helvetica, sans-serif;
+          }
+
+          #chapitres{
+            text-align: justify;
+            width : 600px;
+            height : 570px;
+            background-color: white;
+            margin-top: -649px;
+            margin-left: 390px;
+            font-family: "Lato", Arial, Helvetica, sans-serif;
+            padding: 30px;
+            color : #2a8382;
+            overflow:auto;
+          }
+
+          #titre-chapitre {
+            color : #35bdbc;
+            font-weight: bold;
+            font-size: 25px;
+            text-transform: uppercase;
+            text-align: center;
+          }
+          #titre-section {
+            color : #35bdbc;
+            font-size: 20px;
+            text-transform: none;
+            margin-bottom: -20px;
+          }
+          #section-video {
+            color : rgb(165, 168, 168);
+            font-size: 15px;
+            text-transform: none;
+            line-height: 2.5;
+          }
         </style>
     </head>
     <body>
-      <h1> La Sagesse et les maths</h1>
+      <div id="menu">
+        <span id="titre">  La Sagesse et les maths </span>
         <ul>
-          <li id="bouton-menu"> <a target="_blank" href=""> Homepage </a> </li>
-          <li id="bouton-menu"> <a target="_blank" href=""> Matière de 4GT </a> </li>
-          <li id="bouton-menu"> Matière de 5GT 6h</li>
-          <li id="bouton-menu"> Matière de 6GT 6h</li>
+          <li id="menu-item"> Homepage </li>
+          <li id="menu-item"> Matière de 4GT </li>
+          <li id="menu-item"> Matière de 5GT 6h</li>
+          <li id="menu-item"> Matière de 6GT 6h</li>
         </ul>
-      <h2> Pourquoi ce site ?</h2>
-        <p> ifhrui rgji jidgji jigjcio jidgji </p>
-      <h2> Comment l'utiliser ?</h2>
-        <p> dij gji  gj fvjfjvi </p>
+      </div>
+
+      <img id="isphere" width="250" alt="Sphère" src="https://t3.ftcdn.net/jpg/01/04/35/82/360_F_104358213_0RbOeM1hEiPTSCFskeJouzIB7cetpgDf.jpg">
+
+      <div id="chapitres">
+        <h1 id="titre-chapitre"> Les nombres complexes </h1>
+        <h3 id="titre-section"> Niveau 1 </h3>
+        <p>
+          <ul>
+            <li id="section-video"> Représentation algébrique et graphique </li>
+            <li id="section-video"> Opposé et conjugué d'un nombre complexe </li>
+          </ul>
+        </p>
+        <h3 id="titre-section"> Niveau 2 </h3>
+        <p>
+          <ul>
+            <li id="section-video"> Somme, produit, quotient de deux complexes </li>
+            <li id="section-video"> Egalité de deux nombres complexes </li>
+            <li id="section-video"> Equations du premier degré en z </li>
+            <li id="section-video"> Equations en z avec son conjugué </li>
+            <li id="section-video"> Equations du second degré à coefficients réels </li>
+          </ul>
+        </p>
+        <h3 id="titre-section"> Niveau 3 </h3>
+        <p>
+          <ul>
+            <li id="section-video"> Représentation trigonométrique </li>
+            <li id="section-video"> Affixe d'un vecteur, milieu d'un segment et distance </li>
+            <li id="section-video"> Amplitude d'un angle </li>
+            <li id="section-video"> Alignement et parallélogramme </li>
+            <li id="section-video"> Lieux géométriques </li>
+          </ul>
+        </p>
+        <h3 id="titre-section"> Niveau 4 </h3>
+        <p>
+          <ul>
+            <li id="section-video"> Passer de la forme algébrique à la forme trigonométrique </li>
+            <li id="section-video"> Egalité et produit de deux complexes </li>
+            <li id="section-video"> Puissance et inverse d'un complexe </li>
+            <li id="section-video"> Quotient de deux complexes </li>
+            <li id="section-video"> Opération 1 : translation </li>
+            <li id="section-video"> Opération 2 : homothétie </li>
+            <li id="section-video"> Opération 3 : rotation </li>
+            <li id="section-video"> Opération 4 et 5 : composée de transformations </li>
+          </ul>
+        </p>
+        <h3 id="titre-section"> Niveau 5 </h3>
+        <p>
+          <ul>
+            <li id="section-video"> Racines nièmes d'un complexe (théorie) </li>
+            <li id="section-video"> Racines nièmes d'un complexe (exemple) </li>
+            <li id="section-video"> Equations binômes </li>
+            <li id="section-video"> Equations du second degré à coefficients complexes </li>
+          </ul>
+        </p>
+      </div>
+
+
     </body>
 </html>
+
